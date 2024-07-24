@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeiko Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #334;
+        }
+        header {
+            background-color: #333333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            margin: 20px 0;
+        }
+        .section-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .product {
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            width: 30%;
+            padding: 15px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product h3 {
+            margin: 15px 0 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Yeiko Store</h1>
+</header>
+
+<nav>
+    <a href="#novedades">Novedades</a>
+    <a href="#camisetas">Camisetas</a>
+    <a href="#zapatos">Zapatos</a>
+    <a href="#tenis">Tenis</a>
+</nav>
+
+<div class="container">
+
+    <section id="novedades">
+        <h2 class="section-title">Novedades</h2>
+        <div class="products">
+            <div class="product">
+                <img src="imagenes/blusa2.png" alt="blusa2.png">
+                <h3>blusa</h3>
+                <p>blusa tipica.</p>
+            </div>
+            <div class="product">
+                <img src="imagenes/novedad1.jpg" alt="Novedad 2">
+                <h3>Novedad 2</h3>
+                <p>Descripción de la novedad 2.</p>
+            </div>
+            <div class="product">
+                <img src="imagenes/blusa3.jpeg" alt="Novedad 3">
+                <h3>Novedad 3</h3>
+                <p>Descripción de la novedad 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="camisetas">
+        <h2 class="section-title">Camisetas</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Camiseta 1">
+                <h3>Camiseta 1</h3>
+                <p>Descripción de la camiseta 1.</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Camiseta 2">
+                <h3>Camiseta 2</h3>
+                <p>Descripción de la camiseta 2.</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Camiseta 3">
+                <h3>Camiseta 3</h3>
+                <p>Descripción de la camiseta 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="zapatos">
+        <h2 class="section-title">Zapatos</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Zapato 1">
+                <h3>Zapato 1</h3>
+                <p>Descripción del zapato 1.</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Zapato 2">
+                <h3>Zapato 2</h3>
+                <p>Descripción del zapato 2.</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Zapato 3">
+                <h3>Zapato 3</h3>
+                <p>Descripción del zapato 3.</p>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2024 Yeiko Store. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
